@@ -21,7 +21,7 @@ class BlogController extends Controller
         if ($blog)
             return $blog;
         else
-            return ["No match id found..."];
+            return ["No match id found.."];
     }
 
     public function addBlog(Request $request)
